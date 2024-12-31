@@ -1,0 +1,14 @@
+[package]
+name = "aserial"
+version = "0.1.0"
+authors = ["Mantas Pats"]
+edition = "2021"
+description = "Command line utility to communicate with serial devices"
+license = "MIT"
+repository = "https://github.com/CT3/aserial"
+readme = "README.md"
+
+[dependencies]
+serialport = "4.0"
+ratatui = "0.21"
+crossterm = "0.26"
